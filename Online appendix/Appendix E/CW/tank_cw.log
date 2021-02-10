@@ -1,0 +1,115 @@
+Starting preprocessing of the model file ...
+Found 57 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+You did not declare endogenous variables after the estimation/calib_smoother command.
+
+[Warning: Some of the parameters have no value (nuH, nuS, calvo, calvo_w) when using
+initial_estimation_checks. If these parameters are not initialized in a steadystate file or a
+steady_state_model-block, Dynare may not be able to solve the model...] 
+Initial value of the log posterior (or likelihood): 90.2607
+
+MODE CHECK
+
+Fval obtained by the minimization routine (minus the posterior/likelihood)): -90.260682
+STEADY:  numerical initial values or parameters incompatible with the following equations
+    52
+Check whether your model is truly linear. Put "resid(1);" before "steady;" to see the problematic equations.
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+        prior mean     mode    s.d. prior pstdev
+
+rhoG        0.700   0.9217  0.0129 beta 0.1500 
+kappa       0.100   0.0661  0.0151 beta 0.0200 
+kappaw      0.100   0.0880  0.0187 beta 0.0200 
+lambda      0.500   0.7416  0.1054 norm 0.1500 
+phiX        4.000   1.8519  0.7323 gamm 2.0000 
+psiH        0.227   0.1226  0.0622 norm 0.1000 
+rho_r       0.700   0.6695  0.1360 beta 0.1500 
+theta_pie   1.700   1.6930  0.1453 gamm 0.1500 
+theta_y     0.100   0.0775  0.0442 gamm 0.0500 
+sigmaG      1.000   0.9710  0.0365 gamm 0.0500 
+
+
+Log data density [Laplace approximation] is 69.967193.
+
+Estimation::mcmc: Multiple chains mode.
+Estimation::mcmc: Old mh-files successfully erased!
+Estimation::mcmc: Old metropolis.log file successfully erased!
+Estimation::mcmc: Creation of a new metropolis.log file.
+Estimation::mcmc: Searching for initial values...
+Estimation::mcmc: Initial values found!
+
+Estimation::mcmc: Write details about the MCMC... Ok!
+Estimation::mcmc: Details about the MCMC are available in tank_cw/metropolis\tank_cw_mh_history_0.mat
+
+
+Estimation::mcmc: Number of mh files: 1 per block.
+Estimation::mcmc: Total number of generated files: 3.
+Estimation::mcmc: Total number of iterations: 500000.
+Estimation::mcmc: Current acceptance ratio per chain: 
+                                                       Chain  1: 25.1182%
+                                                       Chain  2: 25.0512%
+                                                       Chain  3: 24.9426%
+Estimation::mcmc: Total number of MH draws per chain: 500000.
+Estimation::mcmc: Total number of generated MH files: 1.
+Estimation::mcmc: I'll use mh-files 1 to 1.
+Estimation::mcmc: In MH-file number 1 I'll start at line 250001.
+Estimation::mcmc: Finally I keep 250000 draws per chain.
+
+
+
+MCMC Inefficiency factors per block
+Parameter       Block 1     Block 2     Block 3
+rhoG             40.635      40.628      42.259
+kappa            45.548      47.501      44.765
+kappaw           45.206      48.059      43.860
+lambda           36.352      44.200      41.856
+phiX             59.334      64.674      64.932
+psiH             83.035      99.588      91.900
+rho_r            47.015      51.512      48.760
+theta_pie        40.076      43.111      41.153
+theta_y          55.806      55.133      63.591
+sigmaG           40.267      40.292      43.911
+
+Estimation::mcmc::diagnostics: Univariate convergence diagnostic, Brooks and Gelman (1998):
+    Parameter 1...  Done! 
+    Parameter 2...  Done! 
+    Parameter 3...  Done! 
+    Parameter 4...  Done! 
+    Parameter 5...  Done! 
+    Parameter 6...  Done! 
+    Parameter 7...  Done! 
+    Parameter 8...  Done! 
+    Parameter 9...  Done! 
+    Parameter 10...  Done! 
+
+Estimation::marginal density: I'm computing the posterior mean and covariance...  Done!
+Estimation::marginal density: I'm computing the posterior log marginal density (modified harmonic mean)... Done!
+
+
+ESTIMATION RESULTS
+
+Log data density is 69.959768.
+
+parameters
+            prior mean   post. mean        90% HPD interval    prior       pstdev
+
+rhoG             0.700       0.9197      0.8982      0.9411    beta       0.1500
+kappa            0.100       0.0718      0.0464      0.0968    beta       0.0200
+kappaw           0.100       0.0882      0.0580      0.1178    beta       0.0200
+lambda           0.500       0.7478      0.5942      0.9041    norm       0.1500
+phiX             4.000       1.9629      0.7949      3.1410    gamm       2.0000
+psiH             0.227       0.1515      0.0489      0.2506    norm       0.1000
+rho_r            0.700       0.6396      0.4420      0.8468    beta       0.1500
+theta_pie        1.700       1.7216      1.4774      1.9487    gamm       0.1500
+theta_y          0.100       0.1031      0.0252      0.1778    gamm       0.0500
+sigmaG           1.000       0.9712      0.9107      1.0317    gamm       0.0500
+Total computing time : 2h00m02s
+Note: warning(s) encountered in MATLAB/Octave code

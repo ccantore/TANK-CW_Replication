@@ -1,0 +1,51 @@
+Starting preprocessing of the model file ...
+Found 20 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+STEADY-STATE RESULTS:
+
+n   		 0
+nW  		 0
+w   		 0
+c   		 0
+cC  		 0
+cW  		 0
+rn  		 0
+r   		 0
+pi  		 0
+bC  		 0
+bW  		 0
+b   		 0
+t   		 0
+g   		 0
+d   		 0
+csl 		 0
+chl 		 0
+bsl 		 0
+bhl 		 0
+ls  		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+       1.712e-17        1.712e-17                0
+       5.247e-17       -5.247e-17                0
+          0.6801           0.6801                0
+             0.9              0.9                0
+           0.943            0.943                0
+           1.065            1.065                0
+           1.114            1.038           0.4054
+           1.114            1.038          -0.4054
+
+
+There are 3 eigenvalue(s) larger than 1 in modulus 
+for 3 forward-looking variable(s)
+
+The rank condition is verified.
+
+Total computing time : 0h00m00s

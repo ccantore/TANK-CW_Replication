@@ -1,0 +1,911 @@
+Starting preprocessing of the model file ...
+Found 57 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+You did not declare endogenous variables after the estimation/calib_smoother command.
+[Warning: Some of the parameters have no value (nuH, nuS, calvo, calvo_w) when using initial_estimation_checks.
+If these parameters are not initialized in a steadystate file or a steady_state_model-block, Dynare may not be
+able to solve the model...] 
+Initial value of the log posterior (or likelihood): 74.7745
+Gradient norm 244.4798
+Minimum Hessian eigenvalue 0.0033392
+Maximum Hessian eigenvalue 18567.1158
+ 
+Iteration 1
+Correct for low angle: 0.00492915
+Predicted improvement:        6.325754790
+lambda =          1; f =          -32.8363083
+lambda =    0.33333; f =          -74.2624705
+lambda =    0.11111; f =          -68.6402760
+lambda =   0.037037; f =          -74.5154944
+lambda =   0.012346; f =          -74.8527639
+Norm of dx      10.35
+Predicted improvement:    29885.187121864
+lambda =          1; f =         7526.6465200
+lambda =    0.33333; f =          765.4377574
+lambda =    0.11111; f =           17.1497185
+lambda =   0.037037; f =          -65.0236811
+lambda =   0.012346; f =          -73.8308202
+lambda =  0.0041152; f =          -74.7042729
+lambda =  0.0013717; f =          -74.7733012
+lambda = 0.00045725; f =          -78.1864439
+lambda = 0.00015242; f =          -82.7417823
+lambda = 0.00029465; f =          -85.9894275
+Norm of dx     244.48
+Gradient step!!
+Predicted improvement:        0.009286113
+lambda =          1; f =          -85.9992040
+Norm of dx  0.0015199
+Done for param rhoG =   0.9155
+Predicted improvement:        0.060178299
+lambda =          1; f =          -86.0582110
+Norm of dx   0.005492
+Done for param kappa =   0.0693
+Predicted improvement:        0.002077294
+lambda =          1; f =          -86.0603033
+Norm of dx  0.0012078
+Done for param kappaw =   0.0953
+Predicted improvement:        0.728860980
+lambda =          1; f =          -86.5504954
+Norm of dx   0.054121
+Done for param lambda =   0.7573
+Predicted improvement:        3.839618766
+lambda =          1; f =          -72.7194863
+lambda =    0.33333; f =          -88.3020985
+Norm of dx     5.3115
+Done for param phiX =   2.1145
+Predicted improvement:        0.046704312
+lambda =          1; f =          -88.3466771
+Norm of dx    0.01737
+Done for param psiH =   0.2057
+Predicted improvement:        0.004347176
+lambda =          1; f =          -88.3510958
+Norm of dx  0.0077792
+Done for param rho_r =   0.6918
+Predicted improvement:        0.011310131
+lambda =          1; f =          -88.3625491
+Norm of dx   0.019451
+Done for param theta_pie =   1.6634
+Predicted improvement:        0.192608047
+lambda =          1; f =          -88.5234737
+Norm of dx   0.026781
+Done for param theta_y =   0.0757
+Predicted improvement:        0.309878922
+lambda =          1; f =          -88.8310045
+Norm of dx   0.026099
+Done for param sigmaG =   0.9795
+Sequence of univariate steps!!
+Actual dxnorm 1.8886
+FVAL          -88.831
+Improvement   14.0565
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  46.9605
+Minimum Hessian eigenvalue 0.0041707
+Maximum Hessian eigenvalue 14787.4941
+Elapsed time for iteration 1.2294 s.
+ 
+Iteration 2
+Predicted improvement:        4.406472282
+lambda =          1; f =          606.1401570
+lambda =    0.33333; f =          -34.2338193
+lambda =    0.11111; f =          -87.5054117
+lambda =   0.037037; f =          -88.8042027
+lambda =   0.012346; f =          -88.8309866
+lambda =  0.0041152; f =          -88.5843072
+lambda =  0.0013717; f =          -88.8164708
+lambda = 0.00045725; f =          -88.8322099
+lambda = 0.00015242; f =          -88.8320385
+lambda = 0.00029465; f =          -88.8324376
+Norm of dx     29.772
+Predicted improvement:     1102.644106380
+lambda =          1; f =          -72.7556591
+lambda =    0.33333; f =          -87.4889149
+lambda =    0.11111; f =          -88.7189750
+lambda =   0.037037; f =          -88.8273907
+lambda =   0.012346; f =          -88.6283718
+lambda =  0.0041152; f =          -88.8222154
+lambda =  0.0013717; f =          -70.0655966
+lambda = 0.00045725; f =          -88.1229648
+lambda = 0.00015242; f =          -88.9953775
+Norm of dx      46.96
+Predicted improvement:        0.001904105
+lambda =          1; f =          -88.9972938
+Norm of dx 0.00069376
+Done for param rhoG =   0.9214
+Predicted improvement:        0.000813553
+lambda =          1; f =          -88.9981133
+Norm of dx 0.00059906
+Done for param kappa =   0.0723
+Predicted improvement:        0.000386621
+lambda =          1; f =          -88.9984987
+Norm of dx  0.0005214
+Done for param kappaw =   0.0942
+Predicted improvement:        0.105497984
+lambda =          1; f =          -89.0946070
+Norm of dx   0.020362
+Done for param lambda =   0.7784
+Predicted improvement:        0.028721521
+lambda =          1; f =          -89.1210150
+Norm of dx    0.19079
+Done for param phiX =   1.9155
+Predicted improvement:        0.037812704
+lambda =          1; f =          -89.1573202
+Norm of dx    0.01429
+Done for param psiH =   0.1910
+Predicted improvement:        0.008559211
+lambda =          1; f =          -89.1661896
+Norm of dx   0.011014
+Done for param rho_r =   0.6796
+Predicted improvement:        0.000495918
+lambda =          1; f =          -89.1666868
+Norm of dx  0.0040599
+Done for param theta_pie =   1.6701
+Predicted improvement:        0.001168646
+lambda =          1; f =          -89.1678408
+Norm of dx   0.001689
+Done for param theta_y =   0.0722
+Predicted improvement:        0.012117321
+lambda =          1; f =          -89.1799396
+Norm of dx  0.0050709
+Done for param sigmaG =   0.9745
+Sequence of univariate steps!!
+Actual dxnorm 0.20129
+FVAL          -89.1799
+Improvement   0.34894
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  11.5229
+Minimum Hessian eigenvalue 0.033934
+Maximum Hessian eigenvalue 11848.5196
+Elapsed time for iteration 1.148 s.
+ 
+Iteration 3
+Predicted improvement:        4.672995317
+lambda =          1; f =          -75.1145697
+lambda =    0.33333; f =          -88.6250278
+lambda =    0.11111; f =          -45.6270998
+lambda =   0.037037; f =          -86.0143169
+lambda =   0.012346; f =          -88.7567121
+lambda =  0.0041152; f =          -89.1469488
+lambda =  0.0013717; f =          -89.1842179
+Norm of dx     15.159
+Predicted improvement:        0.003305021
+lambda =          1; f =          -89.1874972
+Norm of dx 0.00093316
+Done for param rhoG =   0.9224
+Predicted improvement:        0.000128446
+lambda =          1; f =          -89.1876253
+Norm of dx  0.0002422
+Done for param kappa =   0.0720
+Predicted improvement:        0.000143776
+lambda =          1; f =          -89.1877693
+Norm of dx 0.00031634
+Done for param kappaw =   0.0945
+Predicted improvement:        0.081390604
+lambda =          1; f =          -89.2632665
+Norm of dx   0.018209
+Done for param lambda =   0.7979
+Predicted improvement:        0.000041366
+lambda =          1; f =          -89.2633080
+Norm of dx  0.0063674
+Done for param phiX =   1.9408
+Predicted improvement:        0.025516075
+lambda =          1; f =          -89.2880400
+Norm of dx   0.010551
+Done for param psiH =   0.1804
+Predicted improvement:        0.008732329
+lambda =          1; f =          -89.2970867
+Norm of dx   0.011001
+Done for param rho_r =   0.6712
+Predicted improvement:        0.002620009
+lambda =          1; f =          -89.2997242
+Norm of dx  0.0091625
+Done for param theta_pie =   1.6731
+Predicted improvement:        0.004170637
+lambda =          1; f =          -89.3037972
+Norm of dx  0.0032857
+Done for param theta_y =   0.0741
+Predicted improvement:        0.001052706
+lambda =          1; f =          -89.3048494
+Norm of dx  0.0014881
+Done for param sigmaG =   0.9730
+Sequence of univariate steps!!
+Actual dxnorm 0.034881
+FVAL          -89.3048
+Improvement   0.12491
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  7.4495
+Minimum Hessian eigenvalue 0.018333
+Maximum Hessian eigenvalue 12167.7579
+Elapsed time for iteration 1.1226 s.
+ 
+Iteration 4
+Predicted improvement:        3.593958828
+lambda =          1; f =          -81.3910849
+lambda =    0.33333; f =          -89.1194979
+lambda =    0.11111; f =           13.8270007
+lambda =   0.037037; f =          -85.7261116
+lambda =   0.012346; f =          -88.7863940
+lambda =  0.0041152; f =          -89.2519956
+lambda =  0.0013717; f =          -89.3047508
+lambda = 0.00045725; f =          -89.3069953
+Norm of dx     18.334
+Predicted improvement:        0.001200679
+lambda =          1; f =          -89.3081905
+Norm of dx 0.00055988
+Done for param rhoG =   0.9229
+Predicted improvement:        0.000032309
+lambda =          1; f =          -89.3082228
+Norm of dx 0.00011896
+Done for param kappa =   0.0721
+Predicted improvement:        0.000188322
+lambda =          1; f =          -89.3084107
+Norm of dx 0.00036291
+Done for param kappaw =   0.0941
+Predicted improvement:        0.033580424
+lambda =          1; f =          -89.3405042
+Norm of dx   0.011454
+Done for param lambda =   0.8098
+Predicted improvement:        0.000269184
+lambda =          1; f =          -89.3407751
+Norm of dx   0.016199
+Done for param phiX =   1.9649
+Predicted improvement:        0.007423232
+lambda =          1; f =          -89.3480822
+Norm of dx  0.0052853
+Done for param psiH =   0.1752
+Predicted improvement:        0.005904465
+lambda =          1; f =          -89.3541611
+Norm of dx  0.0090924
+Done for param rho_r =   0.6632
+Predicted improvement:        0.001651809
+lambda =          1; f =          -89.3558219
+Norm of dx  0.0072053
+Done for param theta_pie =   1.6787
+Predicted improvement:        0.000462032
+lambda =          1; f =          -89.3562805
+Norm of dx   0.001077
+Done for param theta_y =   0.0750
+Predicted improvement:        0.000282754
+lambda =          1; f =          -89.3565632
+Norm of dx  0.0007699
+Done for param sigmaG =   0.9722
+Sequence of univariate steps!!
+Actual dxnorm 0.029104
+FVAL          -89.3566
+Improvement   0.051714
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  5.0956
+Minimum Hessian eigenvalue 0.017137
+Maximum Hessian eigenvalue 12112.3252
+Elapsed time for iteration 1.0464 s.
+ 
+Iteration 5
+Predicted improvement:        2.848402330
+lambda =          1; f =          -85.3103238
+lambda =    0.33333; f =          -89.3310892
+lambda =    0.11111; f =          -60.9684144
+lambda =   0.037037; f =          -86.2219661
+lambda =   0.012346; f =          -88.8998933
+lambda =  0.0041152; f =          -89.3089268
+lambda =  0.0013717; f =          -89.3558239
+lambda = 0.00045725; f =          -89.3581897
+Norm of dx     17.605
+Predicted improvement:        0.000297792
+lambda =          1; f =          -89.3584869
+Norm of dx 0.00027801
+Done for param rhoG =   0.9232
+Predicted improvement:        0.000049921
+lambda =          1; f =          -89.3585367
+Norm of dx 0.00018615
+Done for param kappaw =   0.0939
+Predicted improvement:        0.016062358
+lambda =          1; f =          -89.3741276
+Norm of dx  0.0078073
+Done for param lambda =   0.8180
+Predicted improvement:        0.000154900
+lambda =          1; f =          -89.3742832
+Norm of dx   0.012354
+Done for param phiX =   1.9849
+Predicted improvement:        0.001754857
+lambda =          1; f =          -89.3760253
+Norm of dx  0.0024623
+Done for param psiH =   0.1728
+Predicted improvement:        0.003161915
+lambda =          1; f =          -89.3792560
+Norm of dx  0.0067086
+Done for param rho_r =   0.6576
+Predicted improvement:        0.000947082
+lambda =          1; f =          -89.3802070
+Norm of dx  0.0054252
+Done for param theta_pie =   1.6828
+Predicted improvement:        0.000197352
+lambda =          1; f =          -89.3804034
+Norm of dx 0.00070708
+Done for param theta_y =   0.0762
+Predicted improvement:        0.000135419
+lambda =          1; f =          -89.3805388
+Norm of dx 0.00053223
+Done for param sigmaG =   0.9717
+Sequence of univariate steps!!
+Actual dxnorm 0.022898
+FVAL          -89.3805
+Improvement   0.023976
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  3.4859
+Minimum Hessian eigenvalue 0.012178
+Maximum Hessian eigenvalue 12142.9587
+Elapsed time for iteration 1.2933 s.
+ 
+Iteration 6
+Predicted improvement:        1.619039243
+lambda =          1; f =          -87.9457021
+lambda =    0.33333; f =          -89.0357961
+lambda =    0.11111; f =          -67.7676290
+lambda =   0.037037; f =          -86.9020365
+lambda =   0.012346; f =          -89.0176888
+lambda =  0.0041152; f =          -89.3405207
+lambda =  0.0013717; f =          -89.3786207
+lambda = 0.00045725; f =          -89.3812947
+Norm of dx     15.875
+Predicted improvement:        1.510357423
+lambda =          1; f =          -88.6803956
+lambda =    0.33333; f =          -89.1780372
+lambda =    0.11111; f =          -72.2428772
+lambda =   0.037037; f =          -87.2989559
+lambda =   0.012346; f =          -89.0673515
+lambda =  0.0041152; f =          -89.3410132
+lambda =  0.0013717; f =          -89.3767258
+lambda = 0.00045725; f =          -89.3808416
+lambda = 0.00015242; f =          -89.3812661
+lambda = 5.0805e-05; f =          -89.3812989
+lambda = 1.6935e-05; f =          -89.3812976
+lambda =  5.645e-06; f =          -89.3812959
+lambda = 1.8817e-06; f =          -89.3812951
+lambda = 6.2723e-07; f =          -89.3812948
+lambda = 2.0908e-07; f =          -89.3812947
+lambda = 6.9692e-08; f =          -89.3812947
+lambda = 2.3231e-08; f =          -89.3812947
+lambda = 7.7435e-09; f =          -89.3812947
+lambda = 2.5812e-09; f =          -89.3812947
+Norm of dx     14.251
+Predicted improvement:        0.000169543
+lambda =          1; f =          -89.3814682
+Norm of dx 0.00020962
+Done for param rhoG =   0.9234
+Predicted improvement:        0.000057627
+lambda =          1; f =          -89.3815257
+Norm of dx 0.00019953
+Done for param kappaw =   0.0937
+Predicted improvement:        0.006034960
+lambda =          1; f =          -89.3874599
+Norm of dx  0.0047119
+Done for param lambda =   0.8231
+Predicted improvement:        0.000047067
+lambda =          1; f =          -89.3875071
+Norm of dx  0.0068508
+Done for param phiX =   1.9994
+Predicted improvement:        0.000236032
+lambda =          1; f =          -89.3877425
+Norm of dx 0.00088342
+Done for param psiH =   0.1720
+Predicted improvement:        0.001520308
+lambda =          1; f =          -89.3892858
+Norm of dx  0.0046868
+Done for param rho_r =   0.6539
+Predicted improvement:        0.000487461
+lambda =          1; f =          -89.3897748
+Norm of dx  0.0038811
+Done for param theta_pie =   1.6857
+Predicted improvement:        0.000255759
+lambda =          1; f =          -89.3900292
+Norm of dx 0.00081136
+Done for param theta_y =   0.0771
+Predicted improvement:        0.000089924
+lambda =          1; f =          -89.3901191
+Norm of dx 0.00043336
+Done for param sigmaG =   0.9712
+Sequence of univariate steps!!
+Actual dxnorm 0.016104
+FVAL          -89.3901
+Improvement   0.0095802
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  2.2763
+Minimum Hessian eigenvalue 0.0091859
+Maximum Hessian eigenvalue 12157.4163
+Elapsed time for iteration 1.6816 s.
+ 
+Iteration 7
+Predicted improvement:        0.527302077
+lambda =          1; f =          -89.3575148
+lambda =    0.33333; f =          -89.3795153
+lambda =    0.11111; f =          -81.8452993
+lambda =   0.037037; f =          -88.2656309
+lambda =   0.012346; f =          -89.2345855
+lambda =  0.0041152; f =          -89.3733283
+lambda =  0.0013717; f =          -89.3891086
+lambda = 0.00045725; f =          -89.3903239
+Norm of dx      10.31
+Predicted improvement:        0.511274412
+lambda =          1; f =          -89.3866249
+lambda =    0.33333; f =          -89.3838655
+lambda =    0.11111; f =          -82.6099413
+lambda =   0.037037; f =          -88.3604904
+lambda =   0.012346; f =          -89.2423644
+lambda =  0.0041152; f =          -89.3716343
+lambda =  0.0013717; f =          -89.3880587
+lambda = 0.00045725; f =          -89.3900350
+lambda = 0.00015242; f =          -89.3902804
+lambda = 5.0805e-05; f =          -89.3903153
+lambda = 1.6935e-05; f =          -89.3903217
+lambda =  5.645e-06; f =          -89.3903233
+lambda = 1.8817e-06; f =          -89.3903237
+lambda = 6.2723e-07; f =          -89.3903238
+lambda = 2.0908e-07; f =          -89.3903239
+lambda = 6.9692e-08; f =          -89.3903239
+lambda = 2.3231e-08; f =          -89.3903239
+lambda = 7.7435e-09; f =          -89.3903239
+lambda = 2.5812e-09; f =          -89.3903239
+lambda =
+  -6.2723e-07
+lambda = -6.2723e-07; f =          -89.3903240
+Norm of dx     9.7279
+Predicted improvement:        0.000087344
+lambda =          1; f =          -89.3904112
+Norm of dx 0.00015034
+Done for param rhoG =   0.9235
+Predicted improvement:        0.000049256
+lambda =          1; f =          -89.3904606
+Norm of dx 0.00014394
+Done for param kappa =   0.0723
+Predicted improvement:        0.000039930
+lambda =          1; f =          -89.3905005
+Norm of dx 0.00016574
+Done for param kappaw =   0.0935
+Predicted improvement:        0.001940488
+lambda =          1; f =          -89.3924222
+Norm of dx  0.0026459
+Done for param lambda =   0.8260
+Predicted improvement:        0.000676924
+lambda =          1; f =          -89.3931057
+Norm of dx  0.0031507
+Done for param rho_r =   0.6514
+Predicted improvement:        0.000193390
+lambda =          1; f =          -89.3932995
+Norm of dx  0.0024421
+Done for param theta_pie =   1.6877
+Predicted improvement:        0.000107788
+lambda =          1; f =          -89.3934069
+Norm of dx 0.00052733
+Done for param theta_y =   0.0776
+Predicted improvement:        0.000037258
+lambda =          1; f =          -89.3934442
+Norm of dx  0.0002788
+Done for param sigmaG =   0.9709
+Sequence of univariate steps!!
+Actual dxnorm 0.0062898
+FVAL          -89.3934
+Improvement   0.0033251
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  1.3106
+Minimum Hessian eigenvalue 0.0086046
+Maximum Hessian eigenvalue 12045.2963
+Elapsed time for iteration 1.574 s.
+ 
+Iteration 8
+Predicted improvement:        0.166316279
+lambda =          1; f =          -88.9195076
+lambda =    0.33333; f =          -61.0872400
+lambda =    0.11111; f =          -86.6348229
+lambda =   0.037037; f =          -88.9715015
+lambda =   0.012346; f =          -89.3396574
+lambda =  0.0041152; f =          -89.3878881
+lambda =  0.0013717; f =          -89.3931104
+lambda = 0.00045725; f =          -89.3935077
+Norm of dx     5.9414
+Predicted improvement:        0.008624975
+lambda =          1; f =          -88.0550986
+lambda =    0.33333; f =          -89.2785363
+lambda =    0.11111; f =          -89.3835945
+lambda =   0.037037; f =          -89.3931962
+lambda =   0.012346; f =          -89.3937313
+lambda =   0.023866; f =          -89.3936452
+Norm of dx    0.15591
+Predicted improvement:        0.000030727
+lambda =          1; f =          -89.3937620
+Norm of dx 8.9098e-05
+Done for param rhoG =   0.9236
+Predicted improvement:        0.000373204
+lambda =          1; f =          -89.3941336
+Norm of dx  0.0011521
+Done for param lambda =   0.8274
+Predicted improvement:        0.000025156
+lambda =          1; f =          -89.3941588
+Norm of dx  0.0002855
+Done for param psiH =   0.1724
+Predicted improvement:        0.000258877
+lambda =          1; f =          -89.3944191
+Norm of dx  0.0019601
+Done for param rho_r =   0.6495
+Predicted improvement:        0.000016009
+lambda =          1; f =          -89.3944352
+Norm of dx 0.00020213
+Done for param theta_y =   0.0778
+Predicted improvement:        0.000012080
+lambda =          1; f =          -89.3944472
+Norm of dx  0.0001587
+Done for param sigmaG =   0.9708
+Sequence of univariate steps!!
+Actual dxnorm 0.0038853
+FVAL          -89.3944
+Improvement   0.0010031
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  0.8194
+Minimum Hessian eigenvalue 0.0086031
+Maximum Hessian eigenvalue 12014.3918
+Elapsed time for iteration 0.8072 s.
+ 
+Iteration 9
+Predicted improvement:        0.073308822
+lambda =          1; f =          -89.3377544
+lambda =    0.33333; f =          -78.7584543
+lambda =    0.11111; f =          -87.8883884
+lambda =   0.037037; f =          -89.1742712
+lambda =   0.012346; f =          -89.3675116
+lambda =  0.0041152; f =          -89.3916842
+lambda =  0.0013717; f =          -89.3942674
+lambda = 0.00045725; f =          -89.3944717
+Norm of dx     3.9981
+Predicted improvement:        0.003071876
+lambda =          1; f =          -89.3494861
+lambda =    0.33333; f =          -89.3899345
+lambda =    0.11111; f =          -89.3942132
+lambda =   0.037037; f =          -89.3945286
+lambda =   0.012346; f =          -89.3945067
+Norm of dx   0.017432
+Predicted improvement:        0.000013132
+lambda =          1; f =          -89.3945418
+Norm of dx 7.4163e-05
+Done for param kappa =   0.0724
+Predicted improvement:        0.000011138
+lambda =          1; f =          -89.3945529
+Norm of dx   8.73e-05
+Done for param kappaw =   0.0934
+Predicted improvement:        0.000103970
+lambda =          1; f =          -89.3946567
+Norm of dx 0.00060552
+Done for param lambda =   0.8281
+Predicted improvement:        0.000036484
+lambda =          1; f =          -89.3946932
+Norm of dx 0.00034489
+Done for param psiH =   0.1732
+Predicted improvement:        0.000076727
+lambda =          1; f =          -89.3947701
+Norm of dx  0.0010722
+Done for param rho_r =   0.6487
+Predicted improvement:        0.000013610
+lambda =          1; f =          -89.3947837
+Norm of dx  0.0006478
+Done for param theta_pie =   1.6898
+Predicted improvement:        0.000086407
+lambda =          1; f =          -89.3948698
+Norm of dx 0.00047423
+Done for param theta_y =   0.0782
+Sequence of univariate steps!!
+Actual dxnorm 0.0023249
+FVAL          -89.3949
+Improvement   0.0004226
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  0.57244
+Minimum Hessian eigenvalue 0.0081041
+Maximum Hessian eigenvalue 11955.5955
+Elapsed time for iteration 0.85043 s.
+ 
+Iteration 10
+Predicted improvement:        0.009717510
+lambda =          1; f =          -89.3471391
+lambda =    0.33333; f =          -89.3944380
+lambda =    0.11111; f =          -88.9863532
+lambda =   0.037037; f =          -89.3591940
+lambda =   0.012346; f =          -89.3913043
+lambda =  0.0041152; f =          -89.3945350
+lambda =  0.0013717; f =          -89.3948507
+lambda = 0.00045725; f =          -89.3948736
+Norm of dx     1.1378
+Predicted improvement:        0.004579380
+lambda =          1; f =          -86.3842746
+lambda =    0.33333; f =          -89.1983495
+lambda =    0.11111; f =          -89.3751378
+lambda =   0.037037; f =          -89.3928337
+lambda =   0.012346; f =          -89.3946819
+lambda =  0.0041152; f =          -89.3948635
+lambda =  0.0013717; f =          -89.3948762
+lambda = 0.00045725; f =          -89.3948752
+Norm of dx    0.17341
+Predicted improvement:        0.000013509
+lambda =          1; f =          -89.3948897
+Norm of dx 7.5139e-05
+Done for param kappa =   0.0724
+Predicted improvement:        0.000021936
+lambda =          1; f =          -89.3949117
+Norm of dx 0.00026806
+Done for param psiH =   0.1735
+Predicted improvement:        0.000024366
+lambda =          1; f =          -89.3949361
+Norm of dx  0.0006061
+Done for param rho_r =   0.6479
+Sequence of univariate steps!!
+Actual dxnorm 0.0010078
+FVAL          -89.3949
+Improvement   6.6244e-05
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  0.42942
+Minimum Hessian eigenvalue 0.0085844
+Maximum Hessian eigenvalue 11898.6835
+Elapsed time for iteration 0.83943 s.
+ 
+Iteration 11
+Predicted improvement:        0.020814222
+lambda =          1; f =          -54.1586444
+lambda =    0.33333; f =          -85.9042341
+lambda =    0.11111; f =          -88.8492725
+lambda =   0.037037; f =          -89.3219254
+lambda =   0.012346; f =          -89.3864566
+lambda =  0.0041152; f =          -89.3940776
+lambda =  0.0013717; f =          -89.3948775
+lambda = 0.00045725; f =          -89.3949422
+Norm of dx     2.1358
+Predicted improvement:        0.000016118
+lambda =          1; f =          -89.3949671
+lambda =     1.9332; f =          -89.3949754
+Norm of dx 0.00051147
+Predicted improvement:        0.000010918
+lambda =          1; f =          -89.3949863
+Norm of dx 8.6346e-05
+Done for param kappaw =   0.0933
+Predicted improvement:        0.000010384
+lambda =          1; f =          -89.3949967
+Norm of dx 0.00019041
+Done for param lambda =   0.8279
+Predicted improvement:        0.000015298
+lambda =          1; f =          -89.3950120
+Norm of dx  0.0002249
+Done for param psiH =   0.1742
+Sequence of univariate steps!!
+Actual dxnorm 0.0014225
+FVAL          -89.395
+Improvement   7.5938e-05
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  0.401
+Minimum Hessian eigenvalue 0.0083172
+Maximum Hessian eigenvalue 11897.4352
+Elapsed time for iteration 0.79567 s.
+ 
+Iteration 12
+Predicted improvement:        0.002304332
+lambda =          1; f =          -89.3908510
+lambda =    0.33333; f =          -88.3403588
+lambda =    0.11111; f =          -89.3162278
+lambda =   0.037037; f =          -89.3871482
+lambda =   0.012346; f =          -89.3942034
+lambda =  0.0041152; f =          -89.3949366
+lambda =  0.0013717; f =          -89.3950082
+lambda = 0.00045725; f =          -89.3950131
+Norm of dx    0.53736
+Predicted improvement:        0.000013027
+lambda =          1; f =          -89.3950345
+lambda =     1.9332; f =          -89.3950461
+Norm of dx 0.00031955
+Sequence of univariate steps!!
+Actual dxnorm 0.00066991
+FVAL          -89.395
+Improvement   3.41e-05
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  0.37297
+Minimum Hessian eigenvalue 0.0083776
+Maximum Hessian eigenvalue 11895.5913
+Elapsed time for iteration 0.62027 s.
+ 
+Iteration 13
+Predicted improvement:        0.000764260
+lambda =          1; f =          -88.7257508
+lambda =    0.33333; f =          -89.3034280
+lambda =    0.11111; f =          -89.3840111
+lambda =   0.037037; f =          -89.3938157
+lambda =   0.012346; f =          -89.3949203
+lambda =  0.0041152; f =          -89.3950362
+lambda =  0.0013717; f =          -89.3950464
+lambda = 0.00045725; f =          -89.3950466
+lambda = 0.00088394; f =          -89.3950467
+Norm of dx    0.33255
+Norm of dx          0
+Sequence of univariate steps!!
+Try diagonal Hessian
+Predicted improvement:        0.000026855
+lambda =          1; f =          -89.3950603
+lambda =    0.33333; f =          -89.3950598
+lambda =    0.64439; f =          -89.3950643
+Norm of dx 0.00061564
+Diagonal Hessian successful
+Actual dxnorm 0.00027314
+FVAL          -89.3951
+Improvement   1.8222e-05
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  0.12161
+Minimum Hessian eigenvalue 0.0082601
+Maximum Hessian eigenvalue 11883.6209
+Elapsed time for iteration 0.79176 s.
+ 
+Iteration 14
+Predicted improvement:        0.002470468
+lambda =          1; f =          -89.3865733
+lambda =    0.33333; f =          -87.6094931
+lambda =    0.11111; f =          -89.2812162
+lambda =   0.037037; f =          -89.3839096
+lambda =   0.012346; f =          -89.3939080
+lambda =  0.0041152; f =          -89.3949509
+lambda =  0.0013717; f =          -89.3950563
+lambda = 0.00045725; f =          -89.3950650
+lambda = 0.00015242; f =          -89.3950649
+lambda = 0.00029465; f =          -89.3950651
+Norm of dx    0.69852
+Norm of dx          0
+Sequence of univariate steps!!
+Try diagonal Hessian
+Predicted improvement:        0.000007253
+lambda =          1; f =          -89.3950702
+Norm of dx 0.00014774
+Try gradient direction
+Predicted improvement:        0.000000739
+lambda =          1; f =          -89.3950693
+lambda =    0.33333; f =          -89.3950699
+lambda =    0.11111; f =          -89.3950701
+lambda =   0.037037; f =          -89.3950702
+lambda =   0.012346; f =          -89.3950702
+lambda =  0.0041152; f =          -89.3950702
+lambda =  0.0013717; f =          -89.3950702
+lambda = 0.00045725; f =          -89.3950702
+lambda = 0.00015242; f =          -89.3950702
+lambda = 5.0805e-05; f =          -89.3950702
+lambda = 1.6935e-05; f =          -89.3950702
+lambda =  5.645e-06; f =          -89.3950702
+lambda = 1.8817e-06; f =          -89.3950702
+lambda = 6.2723e-07; f =          -89.3950702
+lambda = 2.0908e-07; f =          -89.3950702
+lambda = 6.9692e-08; f =          -89.3950702
+lambda = 2.3231e-08; f =          -89.3950702
+lambda = 4.4909e-08; f =          -89.3950702
+lambda = 8.6817e-08; f =          -89.3950702
+lambda = 5.8458e-08; f =          -89.3950702
+lambda = 4.6109e-08; f =          -89.3950702
+lambda = 4.5266e-08; f =          -89.3950702
+Norm of dx 1.2161e-05
+No further improvement is possible!
+Actual dxnorm 0.00025503
+FVAL          -89.3951
+Improvement   5.855e-06
+Ftol          1e-05
+Htol          1e-05
+Gradient norm  0.12161
+Minimum Hessian eigenvalue 0.0082601
+Maximum Hessian eigenvalue 11883.6209
+Estimation successful.
+
+Final value of minus the log posterior (or likelihood):-89.395070 
+
+MODE CHECK
+
+Fval obtained by the minimization routine (minus the posterior/likelihood)): -89.395070
+STEADY:  numerical initial values or parameters incompatible with the following equations
+    52
+Check whether your model is truly linear. Put "resid(1);" before "steady;" to see the problematic equations.
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+        prior mean     mode    s.d. prior pstdev
+
+rhoG        0.700   0.9237  0.0127 beta 0.1500 
+kappa       0.100   0.0724  0.0157 beta 0.0200 
+kappaw      0.100   0.0933  0.0190 beta 0.0200 
+lambda      0.500   0.8274  0.0817 norm 0.1500 
+phiX        4.000   2.0084  0.8078 gamm 2.0000 
+psiH        0.227   0.1746  0.0881 norm 0.1000 
+rho_r       0.700   0.6473  0.1387 beta 0.1500 
+theta_pie   1.700   1.6904  0.1459 gamm 0.1500 
+theta_y     0.100   0.0782  0.0438 gamm 0.0500 
+sigmaG      1.000   0.9706  0.0365 gamm 0.0500 
+
+
+Log data density [Laplace approximation] is 69.630637.
+
+Estimation::mcmc: Multiple chains mode.
+Estimation::mcmc: Old mh-files successfully erased!
+Estimation::mcmc: Old metropolis.log file successfully erased!
+Estimation::mcmc: Creation of a new metropolis.log file.
+Estimation::mcmc: Searching for initial values...
+Estimation::mcmc: Initial values found!
+
+Estimation::mcmc: Write details about the MCMC... Ok!
+Estimation::mcmc: Details about the MCMC are available in tank_uw/metropolis\tank_uw_mh_history_0.mat
+
+
+Estimation::mcmc: Number of mh files: 1 per block.
+Estimation::mcmc: Total number of generated files: 3.
+Estimation::mcmc: Total number of iterations: 500000.
+Estimation::mcmc: Current acceptance ratio per chain: 
+                                                       Chain  1: 25.6632%
+                                                       Chain  2: 25.7678%
+                                                       Chain  3: 25.5782%
+Estimation::mcmc: Total number of MH draws per chain: 500000.
+Estimation::mcmc: Total number of generated MH files: 1.
+Estimation::mcmc: I'll use mh-files 1 to 1.
+Estimation::mcmc: In MH-file number 1 I'll start at line 250001.
+Estimation::mcmc: Finally I keep 250000 draws per chain.
+
+
+
+MCMC Inefficiency factors per block
+Parameter       Block 1     Block 2     Block 3
+rhoG             43.218      37.239      43.551
+kappa            41.074      45.499      45.258
+kappaw           40.220      39.691      40.375
+lambda           36.069      41.535      39.839
+phiX             65.445      61.370      72.398
+psiH             47.777      51.325      44.549
+rho_r            38.013      40.203      39.039
+theta_pie        39.217      36.888      42.464
+theta_y          50.782      51.109      46.722
+sigmaG           40.340      39.588      44.081
+
+Estimation::mcmc::diagnostics: Univariate convergence diagnostic, Brooks and Gelman (1998):
+    Parameter 1...  Done! 
+    Parameter 2...  Done! 
+    Parameter 3...  Done! 
+    Parameter 4...  Done! 
+    Parameter 5...  Done! 
+    Parameter 6...  Done! 
+    Parameter 7...  Done! 
+    Parameter 8...  Done! 
+    Parameter 9...  Done! 
+    Parameter 10...  Done! 
+
+Estimation::marginal density: I'm computing the posterior mean and covariance...  Done!
+Estimation::marginal density: I'm computing the posterior log marginal density (modified harmonic mean)... Done!
+
+
+ESTIMATION RESULTS
+
+Log data density is 69.582508.
+
+parameters
+            prior mean   post. mean        90% HPD interval    prior       pstdev
+
+rhoG             0.700       0.9210      0.8999      0.9426    beta       0.1500
+kappa            0.100       0.0770      0.0502      0.1027    beta       0.0200
+kappaw           0.100       0.0956      0.0638      0.1259    beta       0.0200
+lambda           0.500       0.8035      0.6824      0.9296    norm       0.1500
+phiX             4.000       2.3001      0.8599      3.6858    gamm       2.0000
+psiH             0.227       0.2066      0.0758      0.3299    norm       0.1000
+rho_r            0.700       0.6494      0.4409      0.8609    beta       0.1500
+theta_pie        1.700       1.7057      1.4631      1.9414    gamm       0.1500
+theta_y          0.100       0.0988      0.0252      0.1702    gamm       0.0500
+sigmaG           1.000       0.9729      0.9129      1.0337    gamm       0.0500
+Total computing time : 1h59m12s
+Note: warning(s) encountered in MATLAB/Octave code

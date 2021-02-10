@@ -1,0 +1,127 @@
+Starting preprocessing of the model file ...
+Found 57 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+back('tank_uh.driver', 'C:\Users\Cristiano Cantore\Dropbox\Gov Spending and LS\Revision\Replication kit\appendix\BIRF\rotemberg pc\UH\+tank_uh\driver.m', 776)" style="font-weight:bold">tank_uh.driver</a> (<a href="matlab: opentoline('C:\Users\Cristiano Cantore\Dropbox\Gov Spending and LS\Revision\Replication kit\appendix\BIRF\rotemberg pc\UH\+tank_uh\driver.m',776,0)">line 776</a>)
+oo_recursive_=dynare_estimation(var_list_);
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.6.2\matlab\dynare.m', 293)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.6.2\matlab\dynare.m',293,0)">line 293</a>)
+evalin('base',[fname '.driver']) ;} 
+clear all
+close all
+clc
+dynare tank_uh
+Using 64-bit preprocessor
+Starting Dynare (version 4.6.2).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Found 57 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+You did not declare endogenous variables after the estimation/calib_smoother command.
+
+[Warning: Some of the parameters have no value (nuH, nuS, calvo, calvo_w) when using initial_estimation_checks.
+If these parameters are not initialized in a steadystate file or a steady_state_model-block, Dynare may not be
+able to solve the model...] 
+Initial value of the log posterior (or likelihood): 83.2929
+
+MODE CHECK
+
+Fval obtained by the minimization routine (minus the posterior/likelihood)): -83.292897
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+        prior mean     mode    s.d. prior pstdev
+
+rhoG        0.700   0.9232  0.0125 beta 0.1500 
+kappa       0.100   0.0735  0.0163 beta 0.0200 
+kappaw      0.100   0.0932  0.0187 beta 0.0200 
+lambda      0.500   0.6241  0.0470 norm 0.1500 
+phiX        4.000   2.2351  0.9607 gamm 2.0000 
+rho_r       0.700   0.5253  0.1565 beta 0.1500 
+theta_pie   1.700   1.6890  0.1470 gamm 0.1500 
+theta_y     0.100   0.0788  0.0437 gamm 0.0500 
+sigmaG      1.000   0.9646  0.0363 gamm 0.0500 
+
+
+Log data density [Laplace approximation] is 65.203213.
+
+Estimation::mcmc: Multiple chains mode.
+Estimation::mcmc: Old metropolis.log file successfully erased!
+Estimation::mcmc: Creation of a new metropolis.log file.
+Estimation::mcmc: Searching for initial values...
+Estimation::mcmc: Initial values found!
+
+Estimation::mcmc: Write details about the MCMC... Ok!
+Estimation::mcmc: Details about the MCMC are available in tank_uh/metropolis\tank_uh_mh_history_0.mat
+
+
+Estimation::mcmc: Number of mh files: 1 per block.
+Estimation::mcmc: Total number of generated files: 3.
+Estimation::mcmc: Total number of iterations: 500000.
+Estimation::mcmc: Current acceptance ratio per chain: 
+                                                       Chain  1: 29.627%
+                                                       Chain  2: 29.5294%
+                                                       Chain  3: 29.6816%
+Estimation::mcmc: Total number of MH draws per chain: 500000.
+Estimation::mcmc: Total number of generated MH files: 1.
+Estimation::mcmc: I'll use mh-files 1 to 1.
+Estimation::mcmc: In MH-file number 1 I'll start at line 250001.
+Estimation::mcmc: Finally I keep 250000 draws per chain.
+
+
+
+MCMC Inefficiency factors per block
+Parameter       Block 1     Block 2     Block 3
+rhoG             34.728      33.219      31.849
+kappa            35.761      32.810      30.813
+kappaw           32.880      32.821      32.387
+lambda           38.474      42.956      38.720
+phiX             48.264      61.299      53.528
+rho_r            28.313      33.413      27.982
+theta_pie        34.596      30.823      33.268
+theta_y          43.929      42.399      44.094
+sigmaG           30.620      33.167      31.345
+
+Estimation::mcmc::diagnostics: Univariate convergence diagnostic, Brooks and Gelman (1998):
+    Parameter 1...  Done! 
+    Parameter 2...  Done! 
+    Parameter 3...  Done! 
+    Parameter 4...  Done! 
+    Parameter 5...  Done! 
+    Parameter 6...  Done! 
+    Parameter 7...  Done! 
+    Parameter 8...  Done! 
+    Parameter 9...  Done! 
+
+Estimation::marginal density: I'm computing the posterior mean and covariance...  Done!
+Estimation::marginal density: I'm computing the posterior log marginal density (modified harmonic mean)... Done!
+
+
+ESTIMATION RESULTS
+
+Log data density is 65.247770.
+
+parameters
+            prior mean   post. mean        90% HPD interval    prior       pstdev
+
+rhoG             0.700       0.9204      0.8994      0.9413    beta       0.1500
+kappa            0.100       0.0785      0.0505      0.1050    beta       0.0200
+kappaw           0.100       0.0954      0.0646      0.1260    beta       0.0200
+lambda           0.500       0.6110      0.5306      0.6934    norm       0.1500
+phiX             4.000       2.6147      0.8880      4.2395    gamm       2.0000
+rho_r            0.700       0.5516      0.3080      0.7870    beta       0.1500
+theta_pie        1.700       1.7073      1.4649      1.9481    gamm       0.1500
+theta_y          0.100       0.1007      0.0254      0.1717    gamm       0.0500
+sigmaG           1.000       0.9664      0.9064      1.0258    gamm       0.0500
+Total computing time : 1h55m57s
+Note: warning(s) encountered in MATLAB/Octave code
